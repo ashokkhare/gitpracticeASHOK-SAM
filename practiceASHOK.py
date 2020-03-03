@@ -7,14 +7,14 @@ GitHub Practice for Wednesday 3/3/2020
 def getNRandom(n):
     from random import randint
     numlist = []
-	'''takes in an integer and returns a list of n random integers between 1 and 10, inclusive'''
+    '''takes in an integer and returns a list of n random integers between 1 and 10, inclusive'''
     for i in n:
         num = randint(1,11)
         numlist.append(num)
 
 #Function 2: Sam
 def multiplyRandom(numbers):
-	'''takes in a list of numbers and returns the product of the numbers'''
+    '''takes in a list of numbers and returns the product of the numbers'''
     product = 1
     for num in numbers:
         product = product*num
