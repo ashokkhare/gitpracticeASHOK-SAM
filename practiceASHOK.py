@@ -5,8 +5,12 @@ GitHub Practice for Wednesday 3/3/2020
 
 #Function 1: Ashok
 def getNRandom(n):
+    from random import randint
+    numlist = []
 	'''takes in an integer and returns a list of n random integers between 1 and 10, inclusive'''
-    pass
+    for i in n:
+        num = randint(1,11)
+        numlist.append(num)
 
 #Function 2: Sam
 def multiplyRandom(numbers):
